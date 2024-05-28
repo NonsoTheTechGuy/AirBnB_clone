@@ -1,7 +1,7 @@
 #  PROJECT : 0x00. AirBnB clone - The console
 ## `Group project` `Python` `OOP`
 
-## [Additional Reading]Python packages(https://intranet.alxswe.com/rltoken/Vn5hOrJ9IHds7we9udPnNg)
+## [Additional Reading - Python packages](https://intranet.alxswe.com/rltoken/Vn5hOrJ9IHds7we9udPnNg)
 
 # Concepts
 For this project, we expect you to look at these concepts:
