@@ -463,8 +463,8 @@ Requirements:
     - `styles/6-filters.css`: for the filters style
     - `styles/8-places.css`: for the places style
 
-  
-![image](https://github.com/NonsoTheTechGuy/AirBnB_clone/assets/92136146/36674f99-bfdb-4641-b2a6-26610a07e844)
+
+![image](https://github.com/NonsoTheTechGuy/AirBnB_clone/assets/92136146/5691c7b5-d9a6-4cdd-ad33-bff2e5bae34f)
 
 
 ## Repo:
