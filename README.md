@@ -1,6 +1,8 @@
 #  PROJECT : 0x00. AirBnB clone - The console
 ## `Group project` `Python` `OOP`
 
+## [Additional Reading - Python packages](https://intranet.alxswe.com/rltoken/Vn5hOrJ9IHds7we9udPnNg)
+
 # Concepts
 For this project, we expect you to look at these concepts:
 
@@ -248,14 +250,14 @@ Write a class `BaseModel` that defines all common attributes/methods for other c
   - `updated_at`: datetime - assign with the current datetime when an instance is created and it will be updated every time you change your object
 - `__str__`: should print: `[<class name>] (<self.id>) <self.__dict__>`
 - Public instance methods:
-- `save(self)`: updates the public instance attribute `updated_at` with the current datetime
-- `to_dict(self)`: returns a dictionary containing all keys/values of `__dict__` of the instance:
-    - by using `self.__dict__`, only instance attributes set will be returned
-    - a key `__class__` must be added to this dictionary with the class name of the object
-    - `created_at` and `updated_at` must be converted to string object in ISO format:
-      - format: `%Y-%m-%dT%H:%M:%S.%f` (ex: `2017-06-14T22:31:03.285259`)
-      - you can use `isoformat()` of `datetime` object
-    - This method will be the first piece of the serialization/deserialization process: create a dictionary representation with “simple object type” of our `BaseModel`
+      - `save(self)`: updates the public instance attribute `updated_at` with the current datetime
+      - `to_dict(self)`: returns a dictionary containing all keys/values of `__dict__` of the instance:
+        - by using `self.__dict__`, only instance attributes set will be returned
+        - a key `__class__` must be added to this dictionary with the class name of the object
+        - `created_at` and `updated_at` must be converted to string object in ISO format:
+          - format: `%Y-%m-%dT%H:%M:%S.%f` (ex: `2017-06-14T22:31:03.285259`)
+          - you can use `isoformat()` of `datetime` object
+        - This method will be the first piece of the serialization/deserialization process: create a dictionary representation with “simple object type” of our `BaseModel`
 ```
 guillaume@ubuntu:~/AirBnB$ cat test_base_model.py
 #!/usr/bin/python3
@@ -287,7 +289,7 @@ JSON of my_model:
 
 guillaume@ubuntu:~/AirBnB$
 ```
-
+---
 ## Repo:
 
 - GitHub repository: `AirBnB_clone`
@@ -395,6 +397,7 @@ Magic right?
 
 - `simple Python data structure`: Dictionaries, arrays, number and string. ex: `{ '12': { 'numbers': [1, 2, 3], 'name': "John" } }`
 - `JSON string representation`: String representing a simple data structure in JSON format. ex: `'{ "12": { "numbers": [1, 2, 3], "name": "John" } }'`
+
 Write a class `FileStorage` that serializes instances to a JSON file and deserializes JSON file to instances:
 
 - `models/engine/file_storage.py`
@@ -600,10 +603,11 @@ Write a class `User` that inherits from `BaseModel`:
 
 - `models/user.py`
 - Public class attributes:
-  -`email`: string - empty string
-  -`password`: string - empty string
-  -`first_name`: string - empty string
-  -`last_name`: string - empty string
+      - `email`: string - empty string
+      - `password`: string - empty string
+      - `first_name`: string - empty string
+      - `last_name`: string - empty string
+
 Update `FileStorage` to manage correctly serialization and deserialization of `User`.
 
 Update your command interpreter (`console.py`) to allow `show`, `create`, `destroy`, `update` and `all` used with `User`.
@@ -684,7 +688,7 @@ No unittests needed for the console
  
 Write all those classes that inherit from `BaseModel`:
 
-- `State (`models/state.py`):
+- `State` (`models/state.py`):
   - Public class attributes:
     - `name`: string - empty string
 - `City` (`models/city.py`):
@@ -707,7 +711,7 @@ Write all those classes that inherit from `BaseModel`:
     - `latitude`: float - 0.0
     - `longitude`: float - 0.0
     - `amenity_ids`: list of string - empty list: it will be the list of `Amenity.id` later
-`Review` (`models/review.py`):
+- `Review` (`models/review.py`):
   - Public class attributes:
     - `place_id`: string - empty string: it will be the `Place.id`
     - `user_id`: string - empty string: it will be the `User.id`
