@@ -74,8 +74,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 ## More Info
 
-![Uploading image.png…]()
-
+![image](https://github.com/NonsoTheTechGuy/AirBnB_clone/assets/92136146/e29b3199-861a-400a-b1a2-2cd7447df787)
 
 ## Tasks
 ## 0. Inline styling
