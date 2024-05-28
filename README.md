@@ -248,8 +248,8 @@ Write a class `BaseModel` that defines all common attributes/methods for other c
   - `updated_at`: datetime - assign with the current datetime when an instance is created and it will be updated every time you change your object
 - `__str__`: should print: `[<class name>] (<self.id>) <self.__dict__>`
 - Public instance methods:
-      - `save(self)`: updates the public instance attribute `updated_at` with the current datetime
-      - `to_dict(self)`: returns a dictionary containing all keys/values of `__dict__` of the instance:
+        - `save(self)`: updates the public instance attribute `updated_at` with the current datetime
+        - `to_dict(self)`: returns a dictionary containing all keys/values of `__dict__` of the instance:
           - by using `self.__dict__`, only instance attributes set will be returned
           - a key `__class__` must be added to this dictionary with the class name of the object
           - `created_at` and `updated_at` must be converted to string object in ISO format:
