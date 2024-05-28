@@ -364,7 +364,7 @@ Layout: (based on `6-index.html`)
           - text: `Places`
           - align in the top left
           - font size: 30px
-    - contains multiple “Places” as listing (horizontal or vertical) describe by:
+     - contains multiple “Places” as listing (horizontal or vertical) describe by:
           - tag: `article`
           - width: 390px
           - padding and margin 20px
