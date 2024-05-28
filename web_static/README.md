@@ -427,18 +427,18 @@ Add more information to a Place `article`:
            - classname: `max_guest`
            - width: 100px
            - [icon](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_group.png)
-     - Number of bedrooms:
-            - tag: `div`
-            - classname: `number_rooms`
-            - width: 100px
-            - fake text
-            - [icon](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_bed.png)
-     - Number of bathrooms:
-            - tag: `div`
-            - classname: `number_bathrooms`
-            - width: 100px
-            - fake text
-            - [icon](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_bath.png)
+      - Number of bedrooms:
+           - tag: `div`
+           - classname: `number_rooms`
+           - width: 100px
+           - fake text
+           - [icon](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_bed.png)
+      - Number of bathrooms:
+           - tag: `div`
+           - classname: `number_bathrooms`
+           - width: 100px
+           - fake text
+           - [icon](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_bath.png)
 - User section:
     - tag: `div`
     - classname: `user`
