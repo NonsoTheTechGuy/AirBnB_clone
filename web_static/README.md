@@ -422,24 +422,23 @@ Add more information to a Place `article`:
     - height: 80px
     - border: top and bottom #DDDDDD 1px
     - contains (align vertically):
-          - Number of guests:
-             - tag: `div`
-             - classname: `max_guest`
-             - width: 100px
-             - fake text
-             - [icon](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_group.png)
-          - Number of bedrooms:
-             - tag: `div`
-             - classname: `number_rooms`
-             - width: 100px
-             - fake text
-             - [icon](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_bed.png)
-          - Number of bathrooms:
-             - tag: `div`
-             - classname: `number_bathrooms`
-             - width: 100px
-             - fake text
-             - [icon](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_bath.png)
+     - Number of guests:
+tag: `div`
+classname: `max_guest`
+width: 100px
+[icon](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_group.png)
+     - Number of bedrooms:
+tag: `div`
+classname: `number_rooms`
+width: 100px
+fake text
+[icon](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_bed.png)
+     - Number of bathrooms:
+tag: `div`
+classname: `number_bathrooms`
+width: 100px
+fake text
+[icon](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_bath.png)
 - User section:
     - tag: `div`
     - classname: `user`
