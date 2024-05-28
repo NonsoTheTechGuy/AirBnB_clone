@@ -688,7 +688,7 @@ No unittests needed for the console
  
 Write all those classes that inherit from `BaseModel`:
 
-- `State (`models/state.py`):
+- `State` (`models/state.py`):
   - Public class attributes:
     - `name`: string - empty string
 - `City` (`models/city.py`):
@@ -711,7 +711,7 @@ Write all those classes that inherit from `BaseModel`:
     - `latitude`: float - 0.0
     - `longitude`: float - 0.0
     - `amenity_ids`: list of string - empty list: it will be the list of `Amenity.id` later
-`Review` (`models/review.py`):
+- `Review` (`models/review.py`):
   - Public class attributes:
     - `place_id`: string - empty string: it will be the `Place.id`
     - `user_id`: string - empty string: it will be the `User.id`
