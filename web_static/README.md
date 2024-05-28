@@ -360,10 +360,10 @@ Layout: (based on `6-index.html`)
     - classname: `places`
     - same level as the filters section, inside `.container`
     - contains a title:
-          - tag: `h1`
-          - text: `Places`
-          - align in the top left
-          - font size: 30px
+      - tag: `h1`
+      - text: `Places`
+      - align in the top left
+      - font size: 30px
      - contains multiple “Places” as listing (horizontal or vertical) describe by:
           - tag: `article`
           - width: 390px
