@@ -325,8 +325,8 @@ Layout: (based on `5-index.html`)
     - border #DDDDDD 1px with border radius 4px
     - no list display
     - Location filter has 2 levels of `ul`/`li`:
-     - state -> cities
-     - state name must be display in a `h2` tag (font size 16px)
+      - state -> cities
+      - state name must be display in a `h2` tag (font size 16px)
 
 Requirements:
 
