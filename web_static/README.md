@@ -74,8 +74,8 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 ## More Info
 
+![Uploading image.png…]()
 
-https://s3.amazonaws.com/intranet-projects-files/concepts/74/hbnb_step1.png
 
 ## Tasks
 ## 0. Inline styling
