@@ -341,7 +341,10 @@ Requirements:
     - `styles/3-header.css`: for the header style
     - `styles/3-footer.css`: for the footer style
     - `styles/6-filters.css`: for the filters style
- 
+
+![image](https://github.com/NonsoTheTechGuy/AirBnB_clone/assets/92136146/ff6fe9ef-8d5d-493e-9629-ccf247536e7b)
+
+![image](https://github.com/NonsoTheTechGuy/AirBnB_clone/assets/92136146/29fe4b81-8220-4e85-89c5-ce2c27d12263)
 
 Repo:
 
