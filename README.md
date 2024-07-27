@@ -101,7 +101,7 @@ Do you remember the Shell? It’s exactly the same but limited to a specific use
 - We strongly encourage you to work together on test cases, so that you don’t miss any edge case
 
 ## GitHub
-`There should be one project repository per group. If you clone/fork/whatever a project repository with the same name before the second deadline, you risk a 0% score.`
+**There should be one project repository per group. If you clone/fork/whatever a project repository with the same name before the second deadline, you risk a 0% score.**
 
 # More Info
 ## Execution
